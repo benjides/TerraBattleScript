@@ -180,11 +180,30 @@ var #ttime 0
       touchMove 0 630 600
       sleep 150
 
-      touchMove 0 990 600
+      touchMove 0 810 600
       sleep 150
 
       touchMove 0 810 780
       sleep 150
+
+      touchMove 0 640 780
+      sleep 150
+
+      touchMove 0 640 435
+      sleep 150
+
+      touchMove 0 990 435
+      sleep 150
+
+      touchMove 0 990 600
+      sleep 150
+
+      touchMove 0 810 600
+      sleep 150
+
+      touchMove 0 810 780
+      sleep 150
+
 
       touchMove 0 630 960
       sleep 150

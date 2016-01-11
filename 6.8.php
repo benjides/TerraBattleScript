@@ -31,7 +31,7 @@
     <!-- Begin page content -->
     <div class="container">
       <div class="page-header">
-        <h1>Script Setup</h1>
+        <h1>6.8 Metal Ticket Script</h1>
       </div>
       <form class="form-horizontal" action="compiler/make-6.8.php" method="GET">
         <fieldset>
