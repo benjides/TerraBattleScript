@@ -69,7 +69,7 @@
                 </div>
               </div>
               <div class="col-xs-6">
-                <label for="input-sleep-cleared">Time after each Battle</label>
+                <label for="input-sleep-battle">Time after each Battle</label>
                 <div class="input-group">
                   <input id="input-sleep-battle" value="20" name="input-sleep-battle" class="form-control" type="number" min="1">
                   <div class="input-group-addon"> S</div>

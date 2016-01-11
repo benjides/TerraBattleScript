@@ -10,9 +10,9 @@
   $width = $_GET['input-width'];
   $height = $_GET['input-height'];
   $stamina = $_GET['input-stamina'];
-  $sleepstage = 25000;
-  $sleepstageselection = 5000;
-  $stagecleared = 10000;
+  $sleepstageselection = $_GET['input-sleep-selection']*1000;
+  $sleepstage = $_GET['input-sleep-battle']*1000;
+  $stagecleared = $_GET['input-sleep-cleared']*1000;
 
   $time = 140;
 
@@ -32,8 +32,6 @@
         case 3:
           $action .= "\tkeyDown K_POWER\n\tsleep 50\n\tkeyUp K_POWER \n";
           break;
-
-
       }
     }
   }
