@@ -42,15 +42,15 @@
           <!-- Screen Dimensions -->
           <div class="bs-docs-section" id="screen-dimensions-section">
             <h3 id="screen-dimensions" class="page-header">Screen Dimensions</h3>
-            <p class="lead">Introduce the appropiate screen dimension for your device specified in Pixels.</p>
+            <p class="lead">By now screen dimensions are restricted to 1080x1980. Come back soon to check for news.</p>
             <div class="row">
               <div class="col-xs-6">
                 <label for="input-width">Width</label>
-                <input id="input-width" value="1080" name="input-width" class="form-control" type="number" min="1">
+                <input id="input-width" value="1080" name="input-width" disabled class="form-control" type="number" min="1">
               </div>
               <div class="col-xs-6">
                 <label for="input-height">Height</label>
-                <input id="input-height" value="1920" name="input-height" class="form-control" type="number" min="1">
+                <input id="input-height" value="1920" name="input-height" disabled class="form-control" type="number" min="1">
               </div>
             </div>
             <div class="bs-callout bs-callout-info">
