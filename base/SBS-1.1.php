@@ -41,7 +41,7 @@
       sleep 1000
 
 
-      #loops = <?php echo $loops ?>
+      #loops = <?php echo ceil($loops/2) ?>
 
       :movloop
         //MoveCorner
@@ -52,10 +52,27 @@
 
         sleep 175
         touchMove 0 <?php echo ceil($width* 985/1080) ?> <?php echo ceil($height*1675/1920) ?>
-        
+
         sleep 75
         touchUp 0
         sleep 700
+
+
+        //MoveOtherCorner
+        touchDown 0 <?php echo ceil($width* 95/1080) ?> <?php echo ceil($height*1675/1920) ?>
+
+        sleep 50
+        touchMove 0 <?php echo ceil($width* 280/1080) ?> <?php echo ceil($height*1675/1920) ?>
+
+        sleep 175
+        touchMove 0 <?php echo ceil($width* 95/1080) ?> <?php echo ceil($height*1675/1920) ?>
+
+        sleep 75
+        touchUp 0
+        sleep 700
+
+
+
         #loops = #loops - 1
         if #loops != 0
            goto :movloop
