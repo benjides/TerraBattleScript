@@ -7,14 +7,16 @@
 
 
 
-  $width = $_GET['input-width'];
-  $height = $_GET['input-height'];
+  $width = 1080;
+  $height = 1920;
   $stamina = $_GET['input-stamina'];
   $sleepstageselection = $_GET['input-sleep-selection']*1000;
   $sleepstage = $_GET['input-sleep-battle']*1000;
   $stagecleared = $_GET['input-sleep-cleared']*1000;
 
-  $time = 140;
+  $bulktime = 26000;
+
+  $time = ($sleepstageselection + $stagecleared + $sleepstage*5 + 1000     + $bulktime)/1000 ;
 
   $action = "";
   if($_GET['response-radio'] == 1){
