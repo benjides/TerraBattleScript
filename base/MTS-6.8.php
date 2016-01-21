@@ -7,7 +7,7 @@ var #ttime 0
 
 
 :start
-  #tloops = (#stamina*2100)/(2100-#etime)
+  #tloops = (#stamina*2100)/((2100-#etime)*7)
   toast Estimated execution loops : #tloops
   sleep 2000
   #ttime = (#tloops*#etime)/60
