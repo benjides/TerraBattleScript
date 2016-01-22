@@ -162,57 +162,24 @@ var #ttime 0
 
     :stage4
       sleep 200
-      touchDown 0 810 1500
+      touchDown 0 640 960
       sleep 500
 
-      touchMove 0 450 1145
-      sleep 150
-
-      touchMove 0 450 780
-      sleep 150
-
-      touchMove 0 810 780
-      sleep 150
-
-      touchMove 0 630 960
-      sleep 150
-
-      touchMove 0 630 600
-      sleep 150
-
-      touchMove 0 810 600
-      sleep 150
-
-      touchMove 0 810 780
-      sleep 150
-
-      touchMove 0 640 780
-      sleep 150
-
-      touchMove 0 640 435
-      sleep 150
-
-      touchMove 0 990 435
-      sleep 150
-
-      touchMove 0 990 600
-      sleep 150
-
-      touchMove 0 810 600
-      sleep 150
-
-      touchMove 0 810 780
-      sleep 150
-
-
-      touchMove 0 630 960
-      sleep 150
-
-      touchMove 0 630 1145
+      touchMove 0 810 1320
       sleep 150
 
       touchMove 0 990 1500
       sleep 150
+
+      touchMove 0 810 1500
+      sleep 150
+
+      touchMove 0 640 960
+      sleep 150
+
+      touchMove 0 990 600
+      sleep 150
+      
       sleep 200
       touchUp 0
 

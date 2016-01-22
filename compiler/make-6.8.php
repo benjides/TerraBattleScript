@@ -14,9 +14,9 @@
   $sleepstage = $_GET['input-sleep-battle']*1000;
   $stagecleared = $_GET['input-sleep-cleared']*1000;
 
-  $bulktime = 26000;
+  $bulktime = 24350;
 
-  $time = ($sleepstageselection + $stagecleared + $sleepstage*5 + 1000     + $bulktime)/1000 ;
+  $time = ($sleepstageselection + $stagecleared + $sleepstage*5 + 1000 + $bulktime)/1000 ;
 
   $action = "";
   if($_GET['response-radio'] == 1){
