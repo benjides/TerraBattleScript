@@ -14,9 +14,9 @@
   $sleepbattle = $_GET['input-sleep-battle']*1000;
   $stagecleared = $_GET['input-sleep-cleared']*1000;
 
-  $bulktime = 24350;
+  $bulktime = 24420;
 
-  $time = ($sleepstageselection + $stagecleared + $sleepstage*5 + 1000 + $bulktime)/1000 ;
+  $time = ($sleepstageselection + $sleepbattle*5 + $stagecleared + $bulktime)/1000 ;
 
   $action = "";
   if($_GET['response-radio'] == 1){
@@ -42,7 +42,7 @@
 
 
   ob_start();
-    include('../base/MTS-6.8.php');
+    include('../base/LVL-5.8.php');
   $script = ob_get_clean();
   echo $script;
 

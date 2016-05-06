@@ -12,7 +12,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Metal Ticket Script</title>
+    <title>Lvl Script</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -34,9 +34,9 @@
     <!-- Begin page content -->
     <div class="container">
       <div class="page-header">
-        <h1>6.8 Metal Ticket Script</h1>
+        <h1>5.8 LVL Script</h1>
       </div>
-      <form class="form-horizontal" action="compiler/make-6.8.php" method="GET">
+      <form class="form-horizontal" action="compiler/make-5.8.php" method="GET">
         <fieldset>
 
           <!-- Screen Dimensions -->
@@ -80,7 +80,6 @@
                 </div>
                 Counting skill activation , monster death and change battle animations.
               </div>
-
               <div class="col-xs-12">
                 <br>
                 <label for="input-sleep-cleared">Time after each Stage</label>
@@ -101,13 +100,12 @@
             </div>
           </div>
 
-
           <!-- Initial Stamina -->
           <div class="bs-docs-section" id="initial-stamina-section">
             <h3 id="initial-stamina" class="page-header">Inital Stamina</h3>
             <p class="lead">Specify the amount of stamina until the end of the script.</p>
             <div class="row">
-              <div class="col-xs-6">
+              <div class="col-xs-12">
                 <label for="input-stamina">Stamina</label>
                 <input id="input-stamina" value="113" name="input-stamina" class="form-control" type="number" min="1" max="113">
               </div>
@@ -171,7 +169,7 @@
               <div class="col-xs-12">
                 <label for="input-filename">Flename</label>
                 <div class="input-group">
-                  <input id="input-filename" value="MTS-6.8" name="input-filename" class="form-control" type="text">
+                  <input id="input-filename" value="LVL-5.8" name="input-filename" class="form-control" type="text">
                   <div class="input-group-addon">.txt</div>
                 </div>
               </div>

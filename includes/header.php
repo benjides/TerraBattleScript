@@ -11,9 +11,37 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li><a href="index.php">Skill Boosting</a></li>
-        <li><a href="6.8.php">Metal Tickets</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Skill Boost
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="index.php">1.1</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Drop
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="6.8.php">Metal Tickets (6.8)</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Level
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="5.8.php">5.8</a></li>
+          </ul>
+        </li>
       </ul>
+      <!-- <ul class="nav navbar-nav navbar-right">
+        <li><a href="howto">How to use</a></li>
+      </ul> -->
     </div>
   </div>
 </nav>

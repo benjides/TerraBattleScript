@@ -55,7 +55,7 @@ var #ttime 0
       sleep 150
       sleep 200
       touchUp 0
-      sleep <?php echo $sleepstage ?>
+      sleep <?php echo $sleepbattle ?>
 
 
     :stage2
@@ -106,7 +106,7 @@ var #ttime 0
       sleep 150
       sleep 200
       touchUp 0
-      sleep <?php echo $sleepstage ?>
+      sleep <?php echo $sleepbattle ?>
 
 
     :stage3
@@ -157,7 +157,7 @@ var #ttime 0
 
 
 
-      sleep <?php echo $sleepstage ?>
+      sleep <?php echo $sleepbattle ?>
 
 
     :stage4
@@ -179,7 +179,7 @@ var #ttime 0
 
       touchMove 0 990 600
       sleep 150
-      
+
       sleep 200
       touchUp 0
 
@@ -225,7 +225,7 @@ var #ttime 0
       touchUp 0
 
 
-      sleep <?php echo $sleepstage ?>
+      sleep <?php echo $sleepbattle ?>
 
 
 
