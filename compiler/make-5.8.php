@@ -14,7 +14,7 @@
   $sleepbattle = $_GET['input-sleep-battle']*1000;
   $stagecleared = $_GET['input-sleep-cleared']*1000;
 
-  $bulktime = 24420;
+  $bulktime = 29830;
 
   $time = ($sleepstageselection + $sleepbattle*5 + $stagecleared + $bulktime)/1000 ;
 

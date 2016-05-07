@@ -28,7 +28,7 @@
 
       sleep 60
       touchUp 0
-      sleep 5000
+      sleep 4000
 
       //Skip Button
       touchDown 0 <?php echo ceil($width*(160/1080)) ?> <?php echo ceil($height*(70/1920)) ?>
@@ -67,117 +67,108 @@
         touchUp 0
         sleep <?php echo $sleepbattle ?>
 
+        // Time = 10*150 + 2*200 +500 = 2400
 
       :stage2
         sleep 200
         touchDown 0 980 780
         sleep 500
-        touchMove 0 815 1315
+        touchMove 0 980 1500
+        sleep 150
+        touchMove 0 980 1500
         sleep 150
         touchMove 0 815 1500
         sleep 150
-        touchMove 0 980 1500
-        sleep 150
-        touchMove 0 980 1680
-        sleep 150
-        touchMove 0 635 1680
-        sleep 150
-        touchMove 0 635 1500
-        sleep 150
-        touchMove 0 980 1500
-        sleep 150
-        touchMove 0 980 1680
-        sleep 150
-        touchMove 0 450 1680
-        sleep 150
-        touchMove 0 450 1500
-        sleep 150
-        touchMove 0 980 1500
-        sleep 150
-        touchMove 0 980 600
-        sleep 150
-        touchMove 0 450 600
-        sleep 150
-        touchMove 0 450 780
-        sleep 150
-        sleep 200
-        touchUp 0
-        sleep <?php echo $sleepbattle ?>
-
-
-      :stage3
-        sleep 200
-        touchDown 0 450 780
-        sleep 500
-        touchMove 0 100 780
-        sleep 150
-        touchMove 0 100 1315
-        sleep 150
-        touchMove 0 450 1315
-        sleep 150
-        touchMove 0 450 1145
-        sleep 150
-        touchMove 0 100 1145
-        sleep 150
-        touchMove 0 100 1315
-        sleep 150
-        touchMove 0 270 1315
-        sleep 150
-        touchMove 0 100 1500
-        sleep 150
-        touchMove 0 100 1315
+        touchMove 0 815 1315
         sleep 150
         touchMove 0 980 1315
         sleep 150
         touchMove 0 980 1500
         sleep 150
-        sleep 200
-        touchUp 0
-        sleep <?php echo $sleepbattle ?>
-
-      :stage4
-        sleep 200
-        touchDown 0 980 1500
-        sleep 500
-        touchMove 0 980 1680
+        touchMove 0 635 1500
         sleep 150
-        touchMove 0 270 1680
+        touchMove 0 635 1315
         sleep 150
-        touchMove 0 270 1500
+        touchMove 0 980 1315
         sleep 150
-        touchMove 0 100 1500
+        touchMove 0 980 600
         sleep 150
-        touchMove 0 100 600
-        sleep 150
-        touchMove 0 100 600
-        sleep 150
-        touchMove 0 270 600
+        touchMove 0 635 600
         sleep 150
         sleep 200
         touchUp 0
         sleep <?php echo $sleepbattle ?>
 
-      :stage5
+        // Time = 11*150 + 2*200 +500 = 2550
+
+      :stage3
         sleep 200
-        touchDown 0 100 600
+        touchDown 0 635 600
         sleep 500
-        touchMove 0 100 430
+        touchMove 0 815 600
         sleep 150
-        touchDown 1 270 430
+        touchMove 0 815 1315
         sleep 150
-        touchMove 0 980 430
+        touchMove 0 635 1315
         sleep 150
-        touchMove 1 980 430
+        touchMove 0 635 1145
+        sleep 150
+        touchMove 0 980 1145
         sleep 150
         touchMove 0 980 1500
         sleep 150
-        touchMove 1 980 1500
+        touchMove 0 815 1315
+        sleep 150
+        touchMove 0 100 1315
+        sleep 150
+        touchMove 0 100 1500
         sleep 150
         sleep 200
         touchUp 0
-        touchUp 1
         sleep <?php echo $sleepbattle ?>
 
+        // Time = 9*150 + 2*200 +500 = 2250
+
+
+
+      :stage4
+        sleep 200
+        touchDown 0 100 1500
+        sleep 500
+        touchMove 0 100 430
+        sleep 150
+        touchMove 0 980 430
+        sleep 150
+        touchMove 0 980 1500
+        sleep 150
+        touchMove 0 815 1500
+        sleep 150
+        touchMove 0 815 1315
+        sleep 150
+        touchMove 0 980 1315
+        sleep 150
+        touchMove 0 980 600
+        sleep 150
+        touchMove 0 815 600
+        sleep 150
+        sleep 200
+        touchUp 0
+        sleep <?php echo $sleepbattle ?>
+        
+        // Time = 8*150 + 2*200 +500 = 2100
+
+
+      :stage5
+        sleep 200
+        touchDown 0 815 1315
+        sleep 500
+        touchMove 0 100 600
+        sleep 150
+        sleep 200
+        touchUp 0
+        sleep <?php echo $sleepbattle ?>
+
+        // Time = 150 + 2*200 +500 = 1050
 
 
 
@@ -189,12 +180,13 @@
 
         sleep 200
         touchUp 0
-        sleep 700
+        sleep 600
         #loops = #loops - 1
         if #loops != 0
            goto :accept
         endif
 
+        //Time = (200+600)*15 = 12000
 
       #tloops = #tloops - 1
       toast Remaining loops : #tloops
