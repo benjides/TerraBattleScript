@@ -1,8 +1,34 @@
 # Terra Battle Scripts
 
-Basic Scripts to help automate some tedious work in Terra Battle
+Simple WebApp to generate Scripts to automate some tedious work in Terra Battle
+[Link](http://tbscripts.herokuapp.com/)
+
+# Table of Contents
+
+- [Installation](#installation)
+- [Bugs](#bugs)
+- [Dependencies](#dependencies)
+
+## Installation
+Clone the repository to your local machine and run.
+```sh
+  composer install
+```
+Create a `.env` file following the structure shown in `.env.example`
+## Bugs
+If you find any bugs present of the generated Scripts please notify me via:
+ - GitHub dedicated Bugs system  [Link](https://github.com/benjides/TerraBattleScript/issues)
+
+ - Personal email [Mail](mailto:benjides0@gmai.com?Subject=TerraBattleScript%Issues)
+
+## Dependencies
+
+- [Lumen](https://lumen.laravel.com/)
+- [Bootstrap](http://getbootstrap.com/)
 
 
 ###  LaTeX Formulas
-\\cdot T_{s}( S_{0},t, B_{s}) = \frac{S_{0}}{1 - \frac{t}{B_{s}*300} } = \frac{300B_{s}S_{0}}{300S_{0}B_{s} - t} (stamina)
-\\cdot T_{l}( T_{s},B_{s}) = \frac{T_{s}}{B_{s}} (loops) \\cdot T_{t}( T_{l},t) = T_{l}t (seconds) \\Where \left{\begin{matrix} S_{0} = Initial Stamina \ t = Execution Time \ B_{s}= Stamina Cost \end{matrix}\right.
+
+To help understand how some values are calculated
+
+![alt text](http://quicklatex.com/cache3/90/ql_e7f02c9114da797f1e6fc26ce1233590_l3.png)
