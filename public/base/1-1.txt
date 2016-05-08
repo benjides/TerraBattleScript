@@ -1,0 +1,37 @@
+
+    :mainstage
+      //Move MainCharacter
+      touchDown 0 270 1140
+      sleep 50
+      touchMove 0 630 1320
+      sleep 200
+      touchUp 0
+      sleep 1000
+
+      #loops =  {{$loops}}/2
+
+      :movloop
+        //MoveCorner
+        touchDown 0 985 1675
+        sleep 50
+        touchMove 0 800 1675
+        sleep 175
+        touchMove 0 985 1675
+        sleep 75
+        touchUp 0
+        sleep 700
+
+        //MoveOtherCorner
+        touchDown 0  95 1675
+        sleep 50
+        touchMove 0  280 1675
+        sleep 175
+        touchMove 0  95 1675
+        sleep 75
+        touchUp 0
+        sleep 700
+
+        #loops = #loops - 1
+        if #loops != 0
+          goto :movloop
+        endif

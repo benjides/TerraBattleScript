@@ -1,0 +1,123 @@
+
+    :stage1
+      sleep 200
+      touchDown 0 275 1315
+      sleep 500
+      touchMove 0 275 1500
+      sleep 150
+      touchMove 0 815 1500
+      sleep 150
+      touchMove 0 815 1315
+      sleep 150
+      touchMove 0 635 1315
+      sleep 150
+      touchMove 0 635 1680
+      sleep 150
+      touchMove 0 980 1680
+      sleep 150
+      touchMove 0 980 1500
+      sleep 150
+      touchMove 0 815 1500
+      sleep 150
+      touchMove 0 815 780
+      sleep 150
+      touchMove 0 980 780
+      sleep 150
+      sleep 200
+      touchUp 0
+      sleep {{$sleepbattle}}
+      // Time = 10*150 + 2*200 +500 = 2400
+
+    :stage2
+      sleep 200
+      touchDown 0 980 780
+      sleep 500
+      touchMove 0 980 1500
+      sleep 150
+      touchMove 0 980 1500
+      sleep 150
+      touchMove 0 815 1500
+      sleep 150
+      touchMove 0 815 1315
+      sleep 150
+      touchMove 0 980 1315
+      sleep 150
+      touchMove 0 980 1500
+      sleep 150
+      touchMove 0 635 1500
+      sleep 150
+      touchMove 0 635 1315
+      sleep 150
+      touchMove 0 980 1315
+      sleep 150
+      touchMove 0 980 600
+      sleep 150
+      touchMove 0 635 600
+      sleep 150
+      sleep 200
+      touchUp 0
+      sleep {{$sleepbattle}}
+      // Time = 11*150 + 2*200 +500 = 2550
+
+    :stage3
+      sleep 200
+      touchDown 0 635 600
+      sleep 500
+      touchMove 0 815 600
+      sleep 150
+      touchMove 0 815 1315
+      sleep 150
+      touchMove 0 635 1315
+      sleep 150
+      touchMove 0 635 1145
+      sleep 150
+      touchMove 0 980 1145
+      sleep 150
+      touchMove 0 980 1500
+      sleep 150
+      touchMove 0 815 1315
+      sleep 150
+      touchMove 0 100 1315
+      sleep 150
+      touchMove 0 100 1500
+      sleep 150
+      sleep 200
+      touchUp 0
+      sleep {{$sleepbattle}}
+      // Time = 9*150 + 2*200 +500 = 2250
+
+    :stage4
+      sleep 200
+      touchDown 0 100 1500
+      sleep 500
+      touchMove 0 100 430
+      sleep 150
+      touchMove 0 980 430
+      sleep 150
+      touchMove 0 980 1500
+      sleep 150
+      touchMove 0 815 1500
+      sleep 150
+      touchMove 0 815 1315
+      sleep 150
+      touchMove 0 980 1315
+      sleep 150
+      touchMove 0 980 600
+      sleep 150
+      touchMove 0 815 600
+      sleep 150
+      sleep 200
+      touchUp 0
+      sleep {{$sleepbattle}}
+      // Time = 8*150 + 2*200 +500 = 2100
+
+    :stage5
+      sleep 200
+      touchDown 0 815 1315
+      sleep 500
+      touchMove 0 100 600
+      sleep 150
+      sleep 200
+      touchUp 0
+      sleep {{$sleepbattle}}
+      // Time = 150 + 2*200 +500 = 1050

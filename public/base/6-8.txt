@@ -1,0 +1,162 @@
+
+    :stage1
+      sleep 200
+      touchDown 0 635 600
+      sleep 500
+      touchMove 0 635 785
+      sleep 150
+      touchMove 0 270 785
+      sleep 150
+      touchMove 0 270 600
+      sleep 150
+      touchMove 0 450 600
+      sleep 150
+      touchMove 0 450 1320
+      sleep 150
+      touchMove 0 270 1500
+      sleep 150
+      sleep 200
+      touchUp 0
+      sleep {{$sleepbattle}}
+
+    :stage2
+      sleep 200
+      touchDown 0 270 1500
+      sleep 500
+      touchMove 0 270 600
+      sleep 150
+      touchMove 0 450 600
+      sleep 150
+      touchMove 0 450 1145
+      sleep 150
+      touchMove 0 270 1145
+      sleep 150
+      touchMove 0 270 780
+      sleep 150
+      touchMove 0 450 780
+      sleep 150
+      touchMove 0 450 1145
+      sleep 150
+      touchMove 0 270 1145
+      sleep 150
+      touchMove 0 270 970
+      sleep 150
+      touchMove 0 100 1145
+      sleep 200
+      touchMove 0 100 1320
+      sleep 150
+      touchMove 0 100 1320
+      sleep 150
+      touchMove 0 270 1320
+      sleep 150
+      touchMove 0 270 1145
+      sleep 150
+      touchMove 0 100 1145
+      sleep 150
+      touchMove 0 100 1500
+      sleep 150
+      touchMove 0 270 1500
+      sleep 150
+      touchMove 0 270 1320
+      sleep 150
+      touchMove 0 100 1320
+      sleep 150
+      touchMove 0 100 1500
+      sleep 150
+      touchMove 0 470 1500
+      sleep 150
+      sleep 200
+      touchUp 0
+      sleep {{$sleepbattle}}
+
+    :stage3
+      sleep 200
+      touchDown 0 100 1500
+      sleep 500
+      touchMove 0 100 780
+      sleep 150
+      touchMove 0 450 780
+      sleep 150
+      touchMove 0 450 1145
+      sleep 150
+      touchMove 0 100 1145
+      sleep 150
+      touchMove 0 100 780
+      sleep 150
+      touchMove 0 450 780
+      sleep 150
+      touchMove 0 450 1145
+      sleep 150
+      touchMove 0 100 1145
+      sleep 150
+      touchMove 0 100 600
+      sleep 150
+      touchMove 0 630 600
+      sleep 150
+      touchMove 0 630 780
+      sleep 150
+      touchMove 0 450 780
+      sleep 150
+      touchMove 0 450 600
+      sleep 150
+      touchMove 0 810 600
+      sleep 150
+      touchMove 0 810 960
+      sleep 150
+      touchMove 0 630 780
+      sleep 150
+      touchMove 0 100 780
+      sleep 150
+      touchMove 0 100 1500
+      sleep 150
+      touchMove 0 810 1500
+      sleep 150
+      sleep 200
+      touchUp 0
+      sleep {{$sleepbattle}}
+
+    :stage4
+      sleep 200
+      touchDown 0 640 960
+      sleep 500
+      touchMove 0 810 1320
+      sleep 150
+      touchMove 0 990 1500
+      sleep 150
+      touchMove 0 810 1500
+      sleep 150
+      touchMove 0 640 960
+      sleep 150
+      touchMove 0 990 600
+      sleep 150
+      sleep 200
+      touchUp 0
+      sleep {{$sleepbattle}}
+
+    :stage5
+      sleep 200
+      touchDown 0 990 1500
+      sleep 500
+      touchMove 0 810 780
+      sleep 150
+      touchMove 0 810 615
+      sleep 150
+      touchMove 0 990 615
+      sleep 150
+      touchMove 0 990 430
+      sleep 150
+      touchMove 0 640 430
+      sleep 150
+      touchMove 0 640 615
+      sleep 150
+      touchMove 0 990 615
+      sleep 150
+      touchMove 0 990 1680
+      sleep 150
+      touchMove 0 640 1680
+      sleep 150
+      touchMove 0 640 1500
+      sleep 150
+      sleep 200
+      touchUp 0
+      sleep {{$sleepbattle}}
