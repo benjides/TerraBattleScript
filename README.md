@@ -1,34 +1,21 @@
-# Terra Battle Scripts
+## Lumen PHP Framework
 
-Simple WebApp to generate Scripts to automate some tedious work in Terra Battle
-[Link](http://tbscripts.herokuapp.com/)
+[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
+[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
+[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
+[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
+[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
 
-# Table of Contents
+Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
 
-- [Installation](#installation)
-- [Bugs](#bugs)
-- [Dependencies](#dependencies)
+## Official Documentation
 
-## Installation
-Clone the repository to your local machine and run.
-```sh
-  composer install
-```
-Create a `.env` file following the structure shown in `.env.example`
-## Bugs
-If you find any bugs present of the generated Scripts please notify me via:
- - GitHub dedicated Bugs system  [Link](https://github.com/benjides/TerraBattleScript/issues)
+Documentation for the framework can be found on the [Lumen website](http://lumen.laravel.com/docs).
 
- - Personal email [Mail](mailto:benjides0@gmai.com?Subject=TerraBattleScript%Issues)
+## Security Vulnerabilities
 
-## Dependencies
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
-- [Lumen](https://lumen.laravel.com/)
-- [Bootstrap](http://getbootstrap.com/)
+### License
 
-
-###  LaTeX Formulas
-
-To help understand how some values are calculated
-
-![alt text](http://quicklatex.com/cache3/90/ql_e7f02c9114da797f1e6fc26ce1233590_l3.png)
+The Lumen framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)

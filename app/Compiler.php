@@ -48,7 +48,6 @@ class Compiler {
 		$y = ceil($coincidences[4]*$this->sources['height']/1920);
 		return $kind.' '.$finger.' '.$x.' '.$y;
 	}
-
 	private function varParser($text,$sources)
 	{
 		$regex = '#{{\$([A-z]+)}}#';
