@@ -18,7 +18,7 @@
       @include('components.screen')
 
       <!-- Sleep Time -->
-      @include('components.sleep' , ['sleepselection' => 7000 , 'sleepbattle' => 18000 , 'sleepcleared' => 10000] )
+      @include('components.sleep' , ['sleepselection' => 7000 , 'sleepbattle' => 20000 , 'sleepcleared' => 12000] )
 
       <!-- Initial Stamina -->
       @include('components.stamina')
