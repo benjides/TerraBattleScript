@@ -38,18 +38,15 @@ class Compiler {
 	private function screenAdapter($text,$sources)
 	{
 	  $regex = '#(touchMove|touchDown)\s+(\d+)\s+(\d+)\s+(\d+)#';
-	  return preg_replace_callback(
-																	$regex,
-																	function ($coincidences) use($sources) {
-																		$kind = $coincidences[1];
-																		$finger = $coincidences[2];
-																		$x = ceil($coincidences[3]*$sources['width'] /1080);
-																		$y = ceil($coincidences[4]*$sources['height']/1920);
-																		return $kind.' '.$finger.' '.$x.' '.$y;
-        													},
-																	$text);
+	  return preg_replace_callback($regex,array($this, 'callback'),$text);
 	}
-
+	private function callback ($coincidences){
+		$kind = $coincidences[1];
+		$finger = $coincidences[2];
+		$x = ceil($coincidences[3]*$this->sources['width'] /1080);
+		$y = ceil($coincidences[4]*$this->sources['height']/1920);
+		return $kind.' '.$finger.' '.$x.' '.$y;
+	}
 	private function varParser($text,$sources)
 	{
 		$regex = '#{{\$([A-z]+)}}#';
