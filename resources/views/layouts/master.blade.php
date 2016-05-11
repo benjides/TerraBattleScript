@@ -50,7 +50,7 @@
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
-                <!-- <li><a href="{{ url('skillboost/2-1') }}">2.1</a></li> -->
+                <li><a href="{{ url('skillboost/2-1') }}">2.1</a></li>
                 <li><a href="{{ url('skillboost/1-1') }}">1.1</a></li>
               </ul>
             </li>
