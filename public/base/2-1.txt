@@ -1,8 +1,8 @@
 :mainstage
   //Move MainCharacter
-  touchDown 0 450 1675
+  touchDown 0 270 1675
   sleep 50
-  touchMove 0 270 1320
+  touchMove 0 95 1320
   sleep 200
   touchUp 0
   sleep 1000
