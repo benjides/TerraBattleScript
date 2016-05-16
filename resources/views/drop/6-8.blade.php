@@ -9,7 +9,7 @@
   <form class="form-horizontal" action="{{url('make/6-8')}}" method="POST">
     <fieldset>
 
-      <input type="hidden" name="cost" value="2100">
+      <input type="hidden" name="cost" value="7">
       <input type="hidden" name="stageposition" value="1215">
       <input type="hidden" name="time" value="~">
       <input type="hidden" name="battles" value="5">
