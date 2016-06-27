@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col-xs-12">
       <label for="stamina">Stamina</label>
-      <input id="stamina" value="113" name="stamina" class="form-control" type="number" min="1" max="113">
+      <input id="stamina" value="116" name="stamina" class="form-control" type="number" min="1" max="116">
     </div>
   </div>
   <div class="bs-callout bs-callout-info">
