@@ -160,3 +160,4 @@
       sleep 200
       touchUp 0
       sleep {{$sleepbattle}}
+      //Total Time = 60*150 + 11*200 + 5*500 = 13700
