@@ -1,0 +1,133 @@
+
+      :boost
+        sleep 500
+        sleep 200
+        touchDown 0 810 1675
+        sleep 200
+        touchUp 0
+
+        sleep 200
+        touchDown 0 810 1675
+        sleep 200
+        touchUp 0
+
+        sleep 200
+        touchDown 0 810 1675
+        sleep 200
+        touchUp 0
+
+        sleep 200
+        touchDown 0 810 1675
+        sleep 200
+        touchUp 0
+
+        sleep 200
+        touchDown 0 810 1675
+        sleep 200
+        touchUp 0
+
+        sleep 200
+        touchDown 0 810 1675
+        sleep 200
+        touchUp 0
+
+        sleep 200
+        touchDown 0 810 1675
+        sleep 200
+        touchUp 0
+
+
+      :movement
+        sleep 500
+        sleep 200
+        touchDown 0 270 1675
+        sleep 100
+        touchMove 0 95 1675
+        sleep 100
+        touchMove 0 95 1320
+        sleep 100
+        touchMove 0 450 1320
+        sleep 100
+        touchMove 0 450 1140
+        sleep 100
+        touchMove 0 270 1140
+        sleep 100
+        touchMove 0 270 1675
+        sleep 100
+        touchMove 0 450 1675
+        sleep 100
+        touchMove 0 450 970
+        sleep 100
+        touchMove 0 270 970
+        sleep 100
+        touchMove 0 270 1320
+        sleep 100
+        touchMove 0 450 1320
+        sleep 100
+        touchMove 0 450 790
+        sleep 100
+        touchMove 0 270 790
+        sleep 100
+        touchMove 0 270 1135
+        sleep 100
+        touchMove 0 95 960
+        sleep 100
+        touchMove 0 95 600
+        sleep 100
+        touchMove 0 270 600
+        sleep 100
+        touchMove 0 270 960
+        sleep 100
+        touchMove 0 95 960
+        sleep 100
+        touchMove 0 95 420
+        sleep 100
+        touchMove 0 270 420
+        sleep 100
+        touchMove 0 270 785
+        sleep 100
+        touchMove 0 810 1320
+        sleep 100
+        touchMove 0 630 1320
+        sleep 100
+        touchMove 0 630 1140
+        sleep 100
+        touchMove 0 810 1140
+        sleep 100
+        touchMove 0 810 1320
+        sleep 100
+        touchMove 0 630 1320
+        sleep 100
+        touchMove 0 630 970
+        sleep 100
+        touchMove 0 810 970
+        sleep 100
+        touchMove 0 810 1140
+        sleep 100
+        touchMove 0 630 1140
+        sleep 100
+        touchMove 0 630 785
+        sleep 100
+        touchMove 0 810 785
+        sleep 100
+        touchMove 0 810 950
+        sleep 100
+        touchMove 0 630 950
+        sleep 100
+        touchMove 0 630 790
+        sleep 100
+        touchMove 0 810 610
+        sleep 100
+        touchMove 0 810 790
+        sleep 100
+        touchMove 0 990 610
+        sleep 100
+        touchMove 0 990 430
+        sleep 100
+        touchMove 0 810 430
+        sleep 100
+        touchMove 0 810 610
+        sleep 500
+        touchUp 0
+        sleep {{$sleepbattle}}
+        //Total Time = 43*100 + 15*200 + 3*500 = 8800
