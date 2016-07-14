@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Animata Eggs - Kraken kino II')
+@section('title', 'Animata Eggs - Kraken Kino II')
 
 @section('content')
   <div class="page-header">

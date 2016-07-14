@@ -15,9 +15,9 @@
         touchDown 0 985 1675
         sleep 50
         touchMove 0 800 1675
-        sleep 175
+        sleep 200
         touchMove 0 985 1675
-        sleep 75
+        sleep 50
         touchUp 0
         sleep 700
 
@@ -25,9 +25,9 @@
         touchDown 0  95 1675
         sleep 50
         touchMove 0  280 1675
-        sleep 175
+        sleep 200
         touchMove 0  95 1675
-        sleep 75
+        sleep 50
         touchUp 0
         sleep 700
 
