@@ -62,6 +62,7 @@
               <ul class="dropdown-menu">
                 <li><a href="{{ url('drop/6-8') }}">Metal Tickets (6-8)</a></li>
                 <li><a href="{{ url('drop/eggs-2') }}">Animata Eggs - Kraken Kino II</a></li>
+                <li><a href="{{ url('drop/eyes-1') }}">Animata Eyes - Tiamat Kino I</a></li>
               </ul>
             </li>
             <li class="dropdown">

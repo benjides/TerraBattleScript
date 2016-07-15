@@ -18,7 +18,7 @@
       @include('components.screen')
 
       <!-- Sleep Time -->
-      @include('components.sleep' , ['sleepselection' => 7000 , 'sleepbattle' => 22000 , 'sleepcleared' => 10000] )
+      @include('components.sleep' , ['sleepselection' => 10000 , 'sleepbattle' => 22000 , 'sleepcleared' => 10000] )
 
       <!-- Initial Stamina -->
       @include('components.stamina')
@@ -27,7 +27,7 @@
       @include('components.response')
 
       <!-- Filename-->
-      @include('components.filename',['filename' => 'AE-2'])
+      @include('components.filename',['filename' => 'AEGGS-2'])
 
       <!-- Submit-->
       @include('components.submit')
