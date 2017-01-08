@@ -8,7 +8,7 @@ var #tloops 0
 var #ttime 0
 
 :start
-  #tloops = ((300*{{$cost}}*#stamina)/(300*{{$cost}}-#etime))/{{$cost}}
+  #tloops = ((120*{{$cost}}*#stamina)/(120*{{$cost}}-#etime))/{{$cost}}
   toast Estimated execution loops : #tloops
   sleep 2000
   #ttime = (#tloops*#etime)/60

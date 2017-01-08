@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
+    <meta name="description" content="Curated Terra Battle Scripts on demand">
     <meta name="author" content="@benjides">
     <meta name="theme-color" content="#212121">
 
@@ -61,8 +61,6 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a href="{{ url('drop/6-8') }}">Metal Tickets (6-8)</a></li>
-                <li><a href="{{ url('drop/eggs-2') }}">Animata Eggs - Kraken Kino II</a></li>
-                <li><a href="{{ url('drop/eyes-1') }}">Animata Eyes - Tiamat Kino I</a></li>
               </ul>
             </li>
             <li class="dropdown">

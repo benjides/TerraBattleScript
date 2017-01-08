@@ -15,8 +15,9 @@ class Compiler {
 	public function addSources($sources)
 	{
 		$this->sources = array_merge($this->sources, $sources);
-		$this->sources['time'] += 21280 + $sources['sleepselection'] + $sources['sleepselection'];
-
+		if (array_key_exists('sleepbattle',$sources)) {
+			$this->sources['time'] += 21280 + $sources['sleepselection'] + $sources['sleepselection'];
+		}
 		if (array_key_exists('sleepbattle',$sources)) {
 			$this->sources['time'] += $sources['sleepbattle']*$sources['battles'];
 		}
